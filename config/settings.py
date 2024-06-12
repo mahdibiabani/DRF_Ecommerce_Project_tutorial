@@ -151,7 +151,7 @@ REST_FRAMEWORK = {
 
 
     'DEFAULT_RENDERER_CLASSES':[
-        'Mesbah.renders.CustomRenderer',
+        'store.renders.CustomRenderer',
         'rest_framework.renderers.JSONRenderer',
         'rest_framework.renderers.BrowsableAPIRenderer',
     ]
